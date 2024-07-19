@@ -1,0 +1,48 @@
+name: spotifyclone
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  dartz: ^0.10.1
+  firebase_auth: ^4.16.0
+  firebase_core: ^2.24.2
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_svg: ^2.0.10+1
+  get_it: ^7.7.0
+  hydrated_bloc: ^9.1.5
+  path_provider: ^2.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/vectors/
+
+
+  fonts:
+    - family: Satoshi
+      fonts:
+        - asset: assets/fonts/Satoshi-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Satoshi-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Satoshi-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Satoshi-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Satoshi-Black.ttf
+          weight: 900
+
